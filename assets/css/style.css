@@ -68,3 +68,35 @@ body {
     color: aliceblue;
     font-family: 'Press Start 2P', cursive;    
 }
+
+
+/* ========= GAME OVER ======= */
+
+.bgGameOver {
+    position: absolute;
+}
+
+.doggo {
+    position: relative;
+    top: 300px;
+    left: 950px;
+    
+}
+
+.doggo:hover {
+    position: relative;
+    content: url(/assets/img/doggov2.png);
+    position: relative;
+    top: 300px;
+    left: 950px;
+}
+
+.p {
+    position: relative;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    left: 20;
+    top: 330px;
+    z-index: 5;
+}

@@ -14,5 +14,9 @@ function randomPos(){
     var score = parseInt(document.getElementById('h2').innerHTML)
     score += 10
     document.getElementById('h2').innerHTML = score
+
+    if (score === 100){
+        alert('Good Job!! Kamu berhasil menghancurkan semua musuh!'); document.location = 'gameover.html'
+    }
 }
 

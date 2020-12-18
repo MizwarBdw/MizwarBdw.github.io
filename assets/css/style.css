@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    cursor: crosshair;
+}
+
+
+/* =========INDEX=========== */
+
+.bg {
+    position: absolute;
+}
+
+.btnStart {
+    position: relative;
+    text-align: center;
+    display: block; 
+}
+
+#startBtn {
+    max-width: 10%;
+    height: auto;
+    margin-top: 23%;
+}
+
+#startBtn:hover {
+    box-shadow: none;
+    max-width: 12%;
+    height: auto;
+    margin-top: 22%;
+}
+
+
+/* ==========GAME=========== */
+.bgGame {
+    position: absolute;
+    z-index: 0;
+}
+
+#spirit {
+    position: relative;
+    z-index: 3;  
+}
+
+.score {
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    top: -50px;
+}
+
+#h1 {
+    /* position: relative; */
+    display: inline;
+    font-size: 50px;
+    color: aliceblue;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#h2 {
+    /* position: relative; */
+    display: inline;
+    z-index: 4;
+    font-size: 50px;
+    color: aliceblue;
+    font-family: 'Press Start 2P', cursive;    
+}
